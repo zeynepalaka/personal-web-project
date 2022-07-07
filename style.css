@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    color: white;
+    background-image: url(img/hd-wallpaper-gecffc0fc3_1920.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: 600px;
+    height: 550px;
+    background-color: rgba(52, 123, 170, 0.6);
+    text-align: center;
+    border-radius: 30px;
+}
+.center .avatar img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: 5%;
+}
+.center .content{
+    padding: 1rem;
+}
+.content h1{
+    color: rgba(17, 72, 109, 0.9);
+}
+.content h2, p{
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 80%;
+    margin: 10px auto;
+}
+.content h3{
+    margin-top: 1.7rem;
+}
+.social i{
+    padding: 0 10px;
+    font-size: 45px;
+    color: rgba(17, 72, 109, 0.9);
+}
+.social i:hover{
+    color: aliceblue;
+}
+@media  screen and (max-widht:700px) {
+    .center{
+        width: 200px;
+        height: 500px;
+    }
+   
+    h1{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    p{
+        width: 90%;
+        font-size: 12px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .social i{
+        font-size: 25px ;
+    }
+}
